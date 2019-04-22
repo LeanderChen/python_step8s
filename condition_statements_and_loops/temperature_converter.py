@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 temp = input('请输入摄氏或华氏温度数值（形如20c、35c、150f...）：')
 type = temp[-1].upper()
 value = int(temp[:-1])
